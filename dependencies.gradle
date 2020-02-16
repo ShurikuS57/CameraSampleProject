@@ -1,0 +1,31 @@
+ext {
+    versions = [
+            minSdk                : 22,
+            compileSdk            : 29,
+            targetSdk             : 29,
+            buildTools            : '29.0.2',
+            kotlin                : '1.3.61',
+            appcompat             : '1.1.0',
+            androidKtx            : '1.1.0',
+            constraintLayout      : '1.1.3',
+            lifecycle_extensions  : '2.1.0',
+            camerax_version       : '1.0.0-alpha10',
+            camerax_view          : '1.0.0-alpha07',
+            permission_utils      : '3.0.2'
+
+    ]
+    libraries = [
+            kotlin                : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${versions.kotlin}",
+            appcompat             : "androidx.appcompat:appcompat:${versions.appcompat}",
+            androidKtx            : "androidx.core:core-ktx:${versions.androidKtx}",
+            constraintLayout      : "com.android.support.constraint:constraint-layout:${versions.constraintLayout}",
+            lifecycle_extensions  : "androidx.lifecycle:lifecycle-extensions:${versions.lifecycle_extensions}",
+            permission_utils      : "rebus:permission-utils:${versions.permission_utils}",
+
+            // Camera
+            camerax_core          : "androidx.camera:camera-core:${versions.camerax_version}",
+            camera2               : "androidx.camera:camera-camera2:${versions.camerax_version}",
+            camera_lifecycle      : "androidx.camera:camera-lifecycle:${versions.camerax_version}",
+            camerax_view          : "androidx.camera:camera-view:${versions.camerax_view}",
+    ]
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Camera Sample Project</string>
+    <string name="dialog_permission_message">Need permission camera and storage</string>
+    <string name="button_go_settings">Go Settings</string>
+    <string name="button_finish">"Finish"</string>
+    <string name="dialog_permission_title">Need permissions</string>
+</resources>
